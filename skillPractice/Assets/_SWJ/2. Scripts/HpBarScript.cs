@@ -20,6 +20,7 @@ public class HpBarScript : MonoBehaviour
         {
             m_objectList.Add(t_objects[i].transform);
             GameObject t_hpbar = Instantiate(m_goPrefab, t_objects[i].transform.position, Quaternion.identity, transform);
+            
             m_hpBarList.Add(t_hpbar);
         }
     }
