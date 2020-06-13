@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Monster
   - Enemy
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - EnemyCube
   - Enemy
-  - 
+  - Player
   - 
   - 
   - 
